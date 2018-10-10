@@ -31,6 +31,18 @@ class CellPhone
 		cout<<"Camera service\t  ::"<<camera<<endl;
 		cout<<"Wifi service\t  ::"<<wifi<<endl;
 
+	}
+
+	void display_PhoneFeature()
+	{
+		cout <<"Sim slot\t\t::"<<sim_slot<<endl;
+		cout<<"Operationg System\t::"<<Operating_system<<endl;
+		cout<<"Screen size\t\t::"<<Screen_size<<endl;
+		cout<<"Inernal Storage\t\t::"<<IN_Storage<<endl;
+		cout<<"Battery Power\t\t::"<<Batt_pw<<endl;
+		cout<<"Camera Mega Pixel\t::"<<Mega_pix<<endl;
+		cout<<"Bluetooh Service \t::"<<bluetooh<<endl;
+		cout<<endl;
 	}		
 
 };
@@ -69,14 +81,8 @@ class googlepix1 : public googlepixel
  	{
 		
 		cout <<"\n*** google pixel 1 Features ***\n" ;
-		cout <<"Sim slot\t\t::"<<sim_slot<<endl;
-		cout<<"Operationg System\t::"<<Operating_system<<endl;
-		cout<<"Screen size\t\t::"<<Screen_size<<endl;
-		cout<<"Inernal Storage\t\t::"<<IN_Storage<<endl;
-		cout<<"Battery Power\t\t::"<<Batt_pw<<endl;
-		cout<<"Camera Mega Pixel\t::"<<Mega_pix<<endl;
-		cout<<"Bluetooh Service \t::"<<bluetooh<<endl;
-		cout<<endl;
+		display_PhoneFeature();
+		
  	}
 };
 
@@ -98,14 +104,7 @@ class googlepix2 : public googlepixel
  	{
 		
 		cout <<"\n*** google pixel 2 Features ***\n" ;
-		cout <<"Sim slot\t\t::"<<sim_slot<<endl;
-		cout<<"Operationg System\t::"<<Operating_system<<endl;
-		cout<<"Screen size\t\t::"<<Screen_size<<endl;
-		cout<<"Inernal Storage\t\t::"<<IN_Storage<<endl;
-		cout<<"Battery Power\t\t::"<<Batt_pw<<endl;
-		cout<<"Camera Mega Pixel\t::"<<Mega_pix<<endl;
-		cout<<"Bluetooh Service \t::"<<bluetooh<<endl;
-		cout<<endl;
+		display_PhoneFeature();
  	}
 };
 
@@ -143,14 +142,7 @@ public:
  	void display_iphone7()
  	{
 	cout<<"******* Apple iPhone 7  ******\n";
-	cout <<"Sim slot\t\t::"<<sim_slot<<endl;
-	cout<<"Operationg System\t::"<<Operating_system<<endl;
-	cout<<"Screen size\t\t::"<<Screen_size<<endl;
-	cout<<"Inernal Storage\t\t::"<<IN_Storage<<endl;
-	cout<<"Battery Power\t\t::"<<Batt_pw<<endl;
-	cout<<"Camera Mega Pixel\t::"<<Mega_pix<<endl;
-	cout<<"Bluetooh Service \t::"<<bluetooh<<endl;
-	cout<<endl;
+	display_PhoneFeature();
  	}
 
 };
@@ -171,14 +163,7 @@ public:
  	void display_iphoneX()
  	{
 	cout<<"******* Apple iPhone X ******\n";
-	cout <<"Sim slot\t\t::"<<sim_slot<<endl;
-	cout<<"Operationg System\t::"<<Operating_system<<endl;
-	cout<<"Screen size\t\t::"<<Screen_size<<endl;
-	cout<<"Inernal Storage\t\t::"<<IN_Storage<<endl;
-	cout<<"Battery Power\t\t::"<<Batt_pw<<endl;
-	cout<<"Camera Mega Pixel\t::"<<Mega_pix<<endl;
-	cout<<"Bluetooh Service \t::"<<bluetooh<<endl;
-	cout<<endl;
+	display_PhoneFeature();
  	}
 
 };
@@ -216,14 +201,7 @@ class SamsungA6 : public Samsung
 	void display_samsungA6()
  	{
 	cout<<"******* Samsung Galaxy A6 ******\n";
-	cout <<"Sim slot\t\t::"<<sim_slot<<endl;
-	cout<<"Operationg System\t::"<<Operating_system<<endl;
-	cout<<"Screen size\t\t::"<<Screen_size<<endl;
-	cout<<"Inernal Storage\t\t::"<<IN_Storage<<endl;
-	cout<<"Battery Power\t\t::"<<Batt_pw<<endl;
-	cout<<"Camera Mega Pixel\t::"<<Mega_pix<<endl;
-	cout<<"Bluetooh Service \t::"<<bluetooh<<endl;
-	cout<<endl;
+	display_PhoneFeature();
  	}
 };
 class SamsungA7 : public Samsung
@@ -242,15 +220,7 @@ class SamsungA7 : public Samsung
 	void display_samsungA7()
  	{
 	cout<<"******* Samsung Galaxy A7 ******\n";
-
-	cout <<"Sim slot\t\t::"<<sim_slot<<endl;
-	cout<<"Operationg System\t::"<<Operating_system<<endl;
-	cout<<"Screen size\t\t::"<<Screen_size<<endl;
-	cout<<"Inernal Storage\t\t::"<<IN_Storage<<endl;
-	cout<<"Battery Power\t\t::"<<Batt_pw<<endl;
-	cout<<"Camera Mega Pixel\t::"<<Mega_pix<<endl;
-	cout<<"Bluetooh Service \t::"<<bluetooh<<endl;
-	cout<<endl;
+	display_PhoneFeature();
  	}
 };
 
